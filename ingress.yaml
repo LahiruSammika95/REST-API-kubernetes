@@ -16,6 +16,3 @@ spec:
             name: api-service
             port:
               number: 3000
-  tls:
-  - hosts:
-    - myapp.com
