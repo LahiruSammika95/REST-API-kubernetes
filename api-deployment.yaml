@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: api
-          image: sammika/api:7.0
+          image: sammika/api:8.0
  
           ports:
             - containerPort: 3000
@@ -38,6 +38,3 @@ spec:
                 configMapKeyRef:
                   name: mongodb-configmap
                   key: database_url
-
-
-
